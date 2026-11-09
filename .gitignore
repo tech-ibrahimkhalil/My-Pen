@@ -1,0 +1,35 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.build-venv/
+venv/
+env/
+
+# Local packaging and installers
+build/
+dist/
+installer-output/
+*.spec
+images/app/my_pen.ico
+
+# Test output (CI uploads this separately)
+test-results/
+.coverage
+htmlcov/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
+
+# Local secrets, if added later
+.env
+.env.*
+!.env.example
